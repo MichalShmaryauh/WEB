@@ -1,0 +1,66 @@
+.body{
+    height: 1500px;
+}
+.titel{
+    color: red;
+	font-size: xx-large;
+	font-family: fantasy;
+	
+}
+.bottom{
+    border-bottom: 2cm;
+    border-color: red;
+
+}
+
+.imeges{
+    height: 500px;
+    width: 100%;
+    direction:l;
+    margin-bottom: 1.5cm;
+    background-image: url('../Sano/HomeImage/1.jpg');
+	animation-name: img;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+}
+.cut{
+   background-color: red;
+   width: 1px;
+   height:400px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+
+
+@keyframes img {
+	0% {
+		background-image:url('../Sano/HomeImage/2.jpg');
+	}
+  
+	15% {
+        background-image: url('../Sano/HomeImage/3.jpg');
+		
+    }
+    30% {
+        
+		background-image: url('../Sano/HomeImage/4.jpg');
+    }
+    45% {
+        
+        background-image: url('../Sano/HomeImage/5.jpg');
+        
+    }
+    60% {
+        
+		background-image: url('../Sano/HomeImage/6.jpg');
+    }
+  
+	75% {
+		background-image: url('../Sano/HomeImage/1.jpg');
+	
+    }
+    100% {
+		background-image:url('../Sano/HomeImage/2.jpg');
+	}
+}

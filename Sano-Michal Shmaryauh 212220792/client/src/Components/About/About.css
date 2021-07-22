@@ -1,0 +1,35 @@
+
+.AboutHeader{
+    background-color: rgb(4, 24, 63);
+    width: 100%;
+    height: 5%;
+    font-size:xx-large;
+    text-align: center;
+    margin: 0;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    line-height: 78px;
+}
+.imageSano{
+    background-image: url('../Logo/sano.jpg'); 
+    width: 100%;
+    height: 500px;
+    float: unset;;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+.caption{
+    height: 1800px;
+    color:rgb(4, 30, 82);
+    font-size: 25px;
+    font-family:'Arial Narrow';
+    direction: rtl;
+}
+
+.red{
+    color:red;
+}
+
+
+

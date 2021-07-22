@@ -1,0 +1,27 @@
+/**
+ THIS IS THE STYLE OF THE HEADER PAGE
+ */
+
+.p{
+	color: red;
+}
+.space{
+	width: 22em;
+}
+
+
+.icons{
+	color: rgb(4, 24, 63);
+	
+}
+
+.bg{
+	background-color: rgb(235, 235, 229);
+
+}
+
+.pas{
+	background-color: red;
+	height: 1.2px;
+	width: 100%;
+}

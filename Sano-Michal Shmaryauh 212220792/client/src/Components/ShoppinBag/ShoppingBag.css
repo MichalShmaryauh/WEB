@@ -1,0 +1,32 @@
+.floating{
+	float: left;
+	margin-left: 3rem !important;
+	padding: 20px;
+	
+}
+.totalPrice{
+	float: left;
+	margin-left: 2rem !important;
+	padding: 20px;
+	font-size: 20px;
+	color: orange;
+}
+.emptyCart{
+	float: right;
+	font-size: 150px;
+	color: orange;
+	margin-right: 100px;
+
+}
+
+.resetCart{
+	float: right;
+	font-size: 15px;
+	color: orange;
+	margin-right: 50px;
+
+}
+.resetCart:hover{
+	color: white;
+	text-decoration: none;
+}

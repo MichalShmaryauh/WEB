@@ -1,0 +1,28 @@
+.Footer{
+    height: 200px;
+}
+
+
+.ProductName{
+    background-color: rgb(4, 24, 63);
+    width: 100%;
+    height: 5%;
+    font-size:xx-large;
+    text-align: center;
+    margin: 0;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    line-height: 78px;
+}
+.imgCard{
+    height: 10px !important;
+}
+
+.card{
+    width:22%;
+    height:15erm;
+    margin:1em;
+    float: left;
+    
+} 
